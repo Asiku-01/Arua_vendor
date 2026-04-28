@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+
+# Environment variables (CRITICAL: Do not push passwords)
+.env
+
+# Flask instance folder (contains local SQLite DB)
+instance/
+
+# IDEs
+.vscode/
+.idea/
+
+# Distribution / Build
+dist/
+build/
+*.egg-info/
